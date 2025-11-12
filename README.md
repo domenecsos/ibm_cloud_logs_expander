@@ -8,7 +8,7 @@ Export the logs as a CSV (not JSON) and use parameters to filter the interesting
 
 Also use parameters to change the CSV column separator if, like me, your Excel locale uses some exotic separator as the semicolon. No, it does not produce tab separated files. That Citrix has Excel and we use it as the viewer (pro tip: use autofilter and have a drop down to filter DEBUG, INFO, ERROR, etc, twisted but smart mind).
 
-This is the behavior recap by the AI who wrote the code thanks to my insightful prompts (twisted and masrt mind, also lazy).
+This is the behavior recap by the AI who wrote the code thanks to my insightful prompts (twisted and smart mind, but also lazy).
 
 - Creates a folder next to the ZIP named after the ZIP (e.g., myfiles.zip → myfiles/).
 - Extracts all entries (preserving any internal folders) into that folder.
