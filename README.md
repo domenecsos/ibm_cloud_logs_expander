@@ -27,9 +27,9 @@ mvn -q -e -DskipTests package
 mvn -q test
 
 # Run the shaded JAR
-java -jar target/csv-zip-filter-1.0.0-shaded.jar path/to/myfiles.zip
-java -jar target/csv-zip-filter-1.0.0-shaded.jar path/to/myfiles.zip 2
-java -jar target/csv-zip-filter-1.0.0-shaded.jar path/to/myfiles.zip 2 3
-java -jar target/csv-zip-filter-1.0.0-shaded.jar path/to/myfiles.zip 1 ALL '|'
-java -jar target/csv-zip-filter-1.0.0-shaded.jar path/to/myfiles.zip 3 5 ',' ';'
+java -jar target\csv-zip-filter-1.0.0.jar sample_zips\20251112b.zip
+java -jar target\csv-zip-filter-1.0.0.jar sample_zips\20251112b.zip 7
+java -jar target\csv-zip-filter-1.0.0.jar sample_zips\20251112b.zip 7 3 
+java -jar target\csv-zip-filter-1.0.0.jar sample_zips\20251112b.zip 1 ALL '|'
+java -jar target\csv-zip-filter-1.0.0.jar sample_zips\20251112b.zip 3 5 ',' ';'
 ```
